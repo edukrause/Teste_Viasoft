@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test9">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem10"/>
+						<Prp name="starttime" type="D" value="45895.7319495486"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA4ADgANwA0ADkARgAxADEALQBBAEMANQAxAC0ANAAzADAANwAtAEEAMQA2ADkALQBDAEMAOAA3AEEANABBAEUAMwAzADAAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4633"/>
+						<Prp name="duration" type="I" value="4633"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem1"/>
+						<Prp name="starttime" type="D" value="45895.7313534028"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADMANwBBAEYAQgA5ADcALQAyADYAOQAyAC0ANAA2ADAAQgAtADkAOAA0ADQALQBEADkAMwBGAEQAMQAyADMANwAwADgAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="5617"/>
+						<Prp name="duration" type="I" value="5617"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem8"/>
+						<Prp name="starttime" type="D" value="45895.7318456019"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADcAMwBDADIAOQBEAEIALQAzAEYAMAAxAC0ANAA2ADEAQgAtADkARQA2ADkALQBGAEIANwBEADUAOQA0AEEAMQBGADAANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4761"/>
+						<Prp name="duration" type="I" value="4761"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test10">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem11"/>
+						<Prp name="starttime" type="D" value="45895.7320032176"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCADgAMAA5ADEARgAwAEQALQA1ADYANABGAC0ANAA5AEMAMgAtAEIANwA1ADkALQBFADgANQBDADQAMgA2AEQANAAxAEUARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4513"/>
+						<Prp name="duration" type="I" value="4513"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem2"/>
+						<Prp name="starttime" type="D" value="45895.7314184722"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEIANwBCADgANABFADYALQBBAEIAMgBDAC0ANABCADYAMQAtAEIANwBGADUALQBEADMAQQAzADIAQwA5ADEARAAyAEYARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4345"/>
+						<Prp name="duration" type="I" value="4345"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+					<Node name="test11">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem12"/>
+						<Prp name="starttime" type="D" value="45895.7320555671"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEEARQA4ADIANQA0ADMALQAwADIAMwA0AC0ANABCAEUAQwAtAEIAMAA0ADUALQBFADkAOABGADgANgA1ADkAMwBFAEYANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4643"/>
+						<Prp name="duration" type="I" value="4643"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem7"/>
+						<Prp name="starttime" type="D" value="45895.7317902083"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADcAOQA4ADkANwA3AEQALQA0ADgANAAyAC0ANAAyAEIAMgAtADgAMgA5ADgALQBBADQANwA4ADQAQwAwADIAMAA1ADYANQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4782"/>
+						<Prp name="duration" type="I" value="4782"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem9"/>
+						<Prp name="starttime" type="D" value="45895.7319008218"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5AEQAQQBCADAANQA4AEIALQBEADAAMAAzAC0ANAAyADMANAAtADgAMAA3AEUALQA1AEYANABCAEUAMgBBADUANAAyADcAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4210"/>
+						<Prp name="duration" type="I" value="4210"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem5"/>
+						<Prp name="starttime" type="D" value="45895.7316865857"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADAAMgA1AEMAQwBCADAALQAxADcAQgA3AC0ANABEAEEAMwAtAEEAMwBFAEQALQAwADkAQgAyADAANgA1AEUAOAA0ADQARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4795"/>
+						<Prp name="duration" type="I" value="4795"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test12">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem13"/>
+						<Prp name="starttime" type="D" value="45895.7321093519"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADgAMAA2ADIAMgAzAEMALQA5AEEARgAyAC0ANAAxADMAQgAtAEIAOAA1AEQALQAxAEMARQBBADcANAAzAEQAOABDADYARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4355"/>
+						<Prp name="duration" type="I" value="4355"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="name" type="S" value="ProjectTestItem3"/>
+						<Prp name="starttime" type="D" value="45895.7314687616"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAyAEYAOAA5ADAAOAA1ADcALQBCADUAQwA3AC0ANAA2ADQARAAtADkANgAxADUALQBGADQANQA4ADMAQwAyADYARQA2ADgAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="14687"/>
+						<Prp name="duration" type="I" value="14687"/>
+						<Prp name="status" type="I" value="2"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem6"/>
+						<Prp name="starttime" type="D" value="45895.7317421296"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADEANgBFAEQARgBFADYALQAyADgANgBDAC0ANABDAEIANwAtADgARQBEAEIALQA3AEIAMAAyAEQAOAAwADIANAA3AEYARAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4149"/>
+						<Prp name="duration" type="I" value="4149"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="ProjectTestItem4"/>
+						<Prp name="starttime" type="D" value="45895.7316387963"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADMAQQBFAEIARgA4ADYALQBEADMARAA3AC0ANABEAEEAMAAtADkAOQBCADMALQAzAEEAMAAxAEUANwBDADkANgA4AEMAQwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="durationwithoutchildren" type="I" value="4129"/>
+						<Prp name="duration" type="I" value="4129"/>
+						<Prp name="status" type="I" value="0"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="teste"/>
+				<Prp name="starttime" type="D" value="45895.7313534028"/>
+				<Prp name="loadtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="8"/>
+				<Prp name="duration" type="I" value="69619"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="failedtests" type="I" value="8"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="tests" type="I" value="13"/>
+		<Prp name="loadtests" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45895.7313533218"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="DESKTOP-OAJUF6Q"/>
+		<Prp name="user" type="S" value="eduar"/>
+		<Prp name="testname" type="S" value="teste"/>
+		<Prp name="name" type="S" value="CalculadoraBDD"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{1377C2C8-8384-40CF-9122-1A2209FD2915}"/>
+		<Prp name="stop" type="D" value="45895.7321604398"/>
+	</Node>
+</Nodes>
