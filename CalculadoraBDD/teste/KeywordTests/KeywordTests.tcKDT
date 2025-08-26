@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Somar" key="{965B4FC4-C676-4AC4-BA6E-0EEAB38A979C}" path="Somar.tcKDTest" />
+		<child name="Subtrair" key="{4FB58665-05EB-41DF-80AB-282B588C1DB4}" path="Subtrair.tcKDTest" />
+		<child name="Multiplicar" key="{E0B60E51-79F9-41D9-8CA3-945D5B0137E2}" path="Multiplicar.tcKDTest" />
+		<child name="Dividir" key="{2AE12927-03E2-4611-8C43-104549A0C978}" path="Dividir.tcKDTest" />
+		<child name="DividirPorZero" key="{E644E4DA-AC9C-4A39-9215-B1B991DFB21E}" path="DividirPorZero.tcKDTest" />
+		<child name="BotaoCE" key="{86D49A99-1401-4056-9891-C4DE798F0F83}" path="BotaoCE.tcKDTest" />
+		<child name="BotaoC" key="{2600E5E3-E483-4C14-BD0A-FA491B455A1C}" path="BotaoC.tcKDTest" />
+		<child name="BotaoBackspace" key="{5105104D-30EE-48A5-A051-EB732A46035E}" path="BotaoBackspace.tcKDTest" />
+		<child name="OperacaoNumeroNegativo" key="{5CF74429-81C7-4892-85CF-3FB310E6B7B3}" path="OperacaoNumeroNegativo.tcKDTest" />
+		<child name="OperacaoPorcentagem" key="{C295BF49-1DD2-431C-B248-6D0AD58250E4}" path="OperacaoPorcentagem.tcKDTest" />
+		<child name="OperacaoEncadeada" key="{704E20D9-ABEB-4227-9540-D61227C97E8B}" path="OperacaoEncadeada.tcKDTest" />
+		<child name="OperacaoNumeroDecimal" key="{57D79FE2-F122-4F3D-8F00-7FA56B3052EA}" path="OperacaoNumeroDecimal.tcKDTest" />
+		<child name="RepetirUltimaOperacaoComIgual" key="{2397D18D-9BEE-4EFE-B16A-19DB55C2B3B2}" path="RepetirUltimaOperacaoComIgual.tcKDTest" />
+	</children>
+</Root>

@@ -1,0 +1,171 @@
+﻿function Somar() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(11, 25);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_7.TextContainer.NormalOutput, "Text", cmpEqual, "7");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function Subtrair() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Nove.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Menos.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Quatro.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(17, 39);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_5.TextContainer.NormalOutput, "Text", cmpEqual, "5");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function Multiplicar() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Sete.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Seis.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(25, 41);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_42.TextContainer.NormalOutput, "Text", cmpEqual, "42");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function Dividir() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Oito.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Dividir_por.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(5, 38);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_4.TextContainer.NormalOutput, "Text", cmpEqual, "4");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function DividirPorZero() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Nove.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Dividir_por.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.N_o_poss_vel_dividir_por_zero.N_o_poss_vel_dividir_por_zero.Click(162, 22);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_N_o_poss_vel_dividir_por_zero.N_o_poss_vel_dividir_por_zero.N_o_poss_vel_dividir_por_zero, "Text", cmpEqual, "Não é possível dividir por zero");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function BotaoCE() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(12, 21);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, "Text", cmpEqual, "0");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function BotaoC() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Oito.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(34, 23);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Limpar.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(12, 27);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, "Text", cmpEqual, "0");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function BotaoBackspace() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Backspace.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(19, 27);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_12.TextContainer.NormalOutput, "Text", cmpEqual, "12");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function OperacaoNumeroNegativo() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Menos.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Oito.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(30, 34);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_3.TextContainer.NormalOutput, "Text", cmpEqual, "-3");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function OperacaoPorcentagem() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero.DblClick();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Um.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Zero.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Controles_de_exibi_o.Por_cento.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(33, 35);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_202.TextContainer.NormalOutput, "Text", cmpEqual, "20");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function OperacaoEncadeada() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(27, 36);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_16.TextContainer.NormalOutput, "Text", cmpEqual, "16");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function OperacaoNumeroDecimal() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Separador_decimal.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Cinco.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Dois.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Separador_decimal.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(41, 31);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_7_8.TextContainer.NormalOutput, "Text", cmpEqual, "7,8");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+
+function RepetirUltimaOperacaoComIgual() {
+  TestedApps.calc.Run();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Quatro.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Mais.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Teclado_num_rico.Tr_s.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.Operadores_padr_o.Igual_a.Click();
+  Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput.Click(16, 41);
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.NavView.LandmarkTarget.A_exibi_o_10.TextContainer.NormalOutput, "Text", cmpEqual, "10");
+  NameMapping.Sys.Process("ApplicationFrameHost").Window("ApplicationFrameWindow", "Calculadora", 1).Close();
+}
+function RodarTodasFuncoes() {
+    Somar();
+    Subtrair();
+    Multiplicar();
+    Dividir();
+    DividirPorZero();
+    BotaoCE();
+    BotaoC();
+    BotaoBackspace();
+    OperacaoNumeroNegativo();
+    OperacaoPorcentagem();
+    OperacaoEncadeada();
+    OperacaoNumeroDecimal();
+    RepetirUltimaOperacaoComIgual();
+}
